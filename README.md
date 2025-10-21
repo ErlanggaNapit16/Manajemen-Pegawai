@@ -1,12 +1,12 @@
-# 🧑‍💼 Sistem Manajemen Pegawai
+# Sistem Manajemen Pegawai
 
 Aplikasi web berbasis **Laravel** untuk mengelola data **pegawai**, **absensi**, dan **kinerja**, serta menampilkan **dashboard ringkasan** seperti jumlah pegawai aktif, persentase kehadiran harian, dan pegawai dengan nilai kinerja tertinggi dan terendah.
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
-### 👨‍💻 Modul Pegawai
+### Modul Pegawai
 - CRUD (Create, Read, Update, Delete) data pegawai.
 - Upload foto pegawai (tersimpan di `storage/app/public/foto_pegawai`).
 - Pencarian berdasarkan **nama, NIP, jabatan, dan unit kerja**.
@@ -15,21 +15,21 @@ Aplikasi web berbasis **Laravel** untuk mengelola data **pegawai**, **absensi**,
   - NIP wajib unik dan numerik.  
   - Foto opsional (maksimal 2MB, format gambar).  
 
-### 🕓 Modul Absensi
+### Modul Absensi
 - Input dan pelacakan absensi harian pegawai.
 - Menentukan waktu masuk dan pulang.
 - Status kehadiran: Hadir, Izin, Sakit, Alpha, Cuti.
 - Tersedia kolom keterangan tambahan.
 - Data absensi terhubung langsung dengan data pegawai.
 
-### 📈 Modul Kinerja
+### Modul Kinerja
 - Penilaian kinerja per pegawai.
 - Rentang nilai **1 – 10**.
 - Periode kinerja (tanggal mulai dan selesai) disimpan dalam satu kolom.
 - Deskripsi kinerja dapat berisi **beberapa poin (list)**.
 - Dashboard menampilkan pegawai dengan nilai **tertinggi** dan **terendah**.
 
-### 📊 Dashboard
+### Dashboard
 Menampilkan ringkasan utama:
 - Jumlah pegawai **aktif**.
 - Persentase **kehadiran hari ini**.
@@ -38,7 +38,7 @@ Menampilkan ringkasan utama:
 
 ---
 
-## 🧱 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Komponen | Teknologi |
 |-----------|------------|
@@ -51,7 +51,7 @@ Menampilkan ringkasan utama:
 
 ---
 
-## ⚙️ Instalasi
+## Instalasi
 
 ### 1️ Clone Repository
 - git clone https://github.com/ErlanggaNapit16/Manajemen-Pegawai.git
