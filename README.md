@@ -54,21 +54,21 @@ Menampilkan ringkasan utama:
 ## ⚙️ Instalasi
 
 ### 1️ Clone Repository
+- git clone https://github.com/ErlanggaNapit16/Manajemen-Pegawai.git
+- cd Manajemen-Pegawai
 
- -git clone https://github.com/ErlanggaNapit16/Manajemen-Pegawai.git
--cd Manajemen-Pegawai
    
 ### 2️ Install Dependencies
-composer install
-npm install && npm run build
+- composer install
+- npm install && npm run build
 
 ### 3 Salin File .env
 cp .env.example .env
 
 ### 4 Konfigurasi Database di .env
-DB_DATABASE=manajemen_pegawai
-DB_USERNAME=root
-DB_PASSWORD=
+- DB_DATABASE=manajemen_pegawai
+- DB_USERNAME=root
+- DB_PASSWORD=
 
 ###  5 Jalankan migrasi database
 php artisan migrate
