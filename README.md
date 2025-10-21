@@ -55,8 +55,8 @@ Menampilkan ringkasan utama:
 
 ### 1️ Clone Repository
 
- git clone https://github.com/ErlanggaNapit16/Manajemen-Pegawai.git
-   cd Manajemen-Pegawai
+ -git clone https://github.com/ErlanggaNapit16/Manajemen-Pegawai.git
+-cd Manajemen-Pegawai
    
 ### 2️ Install Dependencies
 composer install
